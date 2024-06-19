@@ -1,7 +1,0 @@
-[INFO] 09-06-2024 15:39:27 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:29)] - Edge Driver is opened
-[INFO] 09-06-2024 15:39:28 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:31)] - URL is opened
-[INFO] 09-06-2024 15:39:29 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case checkingNumberOfSelectedProductsTC started
-[INFO] 09-06-2024 15:39:30 [main] [Pages.P02_LandingPage.addAllProductsToCart(P02_LandingPage.java:32)] - number of all products: 6
-[INFO] 09-06-2024 15:39:31 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:42)] - number of products on cart: 6
-[INFO] 09-06-2024 15:39:31 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:53)] - selected products: 6
-[INFO] 09-06-2024 15:39:31 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case checkingNumberOfSelectedProductsTC passed
