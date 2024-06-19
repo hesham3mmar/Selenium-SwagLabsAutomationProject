@@ -1,0 +1,23 @@
+[INFO] 11-06-2024 00:03:22 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:30)] - Edge Driver is opened
+[INFO] 11-06-2024 00:03:23 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:32)] - URL is opened
+[INFO] 11-06-2024 00:03:23 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case comparingPricesTC started
+[INFO] 11-06-2024 00:03:24 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:74)] - randomNumber 1
+[INFO] 11-06-2024 00:03:24 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:74)] - randomNumber 6
+[INFO] 11-06-2024 00:03:24 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:107)] - Total Price 45.98
+[ERROR] 11-06-2024 00:03:24 [main] [Pages.P03_CartPage.getTotalPrice(P03_CartPage.java:34)] - javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression (//button[.='Remove'] //preceding-sibling::div[@class='inventory_item_price'])(1] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//button[.='Remove'] //preceding-sibling::div[@class='inventory_item_price'])(1]' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=125.0.2535.92)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [9e661ec3dc7a459d5ac459c555943e1c, findElement {using=xpath, value=(//button[.='Remove'] //preceding-sibling::div[@class='inventory_item_price'])(1]}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53980}, msedge: {msedgedriverVersion: 125.0.2535.92 (d2d4746171db..., userDataDir: C:\Users\ruuel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53980/devtoo..., se:cdpVersion: 125.0.2535.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: 9e661ec3dc7a459d5ac459c555943e1c
+[INFO] 11-06-2024 00:03:24 [main] [Listeners.IInvokedMethodListenerClass.afterInvocation(IInvokedMethodListenerClass.java:25)] - Test Case comparingPricesTC failed
+[INFO] 11-06-2024 00:03:58 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:30)] - Edge Driver is opened
+[INFO] 11-06-2024 00:04:00 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:32)] - URL is opened
+[INFO] 11-06-2024 00:04:00 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case comparingPricesTC started
+[INFO] 11-06-2024 00:04:00 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:74)] - randomNumber 1
+[INFO] 11-06-2024 00:04:00 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:74)] - randomNumber 2
+[INFO] 11-06-2024 00:04:01 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:107)] - Total Price 39.98
+[INFO] 11-06-2024 00:04:01 [main] [Pages.P03_CartPage.getTotalPrice(P03_CartPage.java:31)] - Total Price 39.98
+[INFO] 11-06-2024 00:04:01 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case comparingPricesTC passed

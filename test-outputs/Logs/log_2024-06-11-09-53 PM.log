@@ -1,0 +1,4 @@
+[INFO] 11-06-2024 21:53:52 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:30)] - Edge Driver is opened
+[INFO] 11-06-2024 21:53:53 [main] [Tests.TC04_CheckoutTest.setup(TC04_CheckoutTest.java:32)] - URL is opened
+[INFO] 11-06-2024 21:53:55 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:71)] - randomNumber 1
+[INFO] 11-06-2024 21:53:55 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:71)] - randomNumber 5

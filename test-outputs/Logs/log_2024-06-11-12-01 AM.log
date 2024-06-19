@@ -1,0 +1,22 @@
+[INFO] 11-06-2024 00:01:25 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:30)] - Edge Driver is opened
+[INFO] 11-06-2024 00:01:26 [main] [Tests.TC03_CartTest.setup(TC03_CartTest.java:32)] - URL is opened
+[INFO] 11-06-2024 00:01:26 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case comparingPricesTC started
+[INFO] 11-06-2024 00:01:27 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:74)] - randomNumber 4
+[INFO] 11-06-2024 00:01:27 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:74)] - randomNumber 5
+[ERROR] 11-06-2024 00:01:27 [main] [Pages.P02_LandingPage.getTotalPriceOfSelectedProducts(P02_LandingPage.java:110)] - javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression (//button[.='Remove'] //preceding-sibling::div[@class='inventory_item_price'])(1] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//button[.='Remove'] //preceding-sibling::div[@class='inventory_item_price'])(1]' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=125.0.2535.92)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a8db78978ae4c222efd12902a60e51c6, findElement {value=(//button[.='Remove'] //preceding-sibling::div[@class='inventory_item_price'])(1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53881}, msedge: {msedgedriverVersion: 125.0.2535.92 (d2d4746171db..., userDataDir: C:\Users\ruuel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53881/devtoo..., se:cdpVersion: 125.0.2535.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a8db78978ae4c222efd12902a60e51c6
+[ERROR] 11-06-2024 00:01:27 [main] [Pages.P03_CartPage.getTotalPrice(P03_CartPage.java:34)] - javascript error: {"status":32,"value":"Unable to locate an element with the xpath expression (//button[.='Remove'] //preceding-sibling::div[@class='inventory_item_price'])(1] because of the following error:\nSyntaxError: Failed to execute 'evaluate' on 'Document': The string '(//button[.='Remove'] //preceding-sibling::div[@class='inventory_item_price'])(1]' is not a valid XPath expression."}
+  (Session info: MicrosoftEdge=125.0.2535.92)
+Build info: version: '4.21.0', revision: '79ed462ef4'
+System info: os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '22.0.1'
+Driver info: org.openqa.selenium.edge.EdgeDriver
+Command: [a8db78978ae4c222efd12902a60e51c6, findElement {value=(//button[.='Remove'] //preceding-sibling::div[@class='inventory_item_price'])(1], using=xpath}]
+Capabilities {acceptInsecureCerts: false, browserName: MicrosoftEdge, browserVersion: 125.0.2535.92, fedcm:accounts: true, ms:edgeOptions: {debuggerAddress: localhost:53881}, msedge: {msedgedriverVersion: 125.0.2535.92 (d2d4746171db..., userDataDir: C:\Users\ruuel\AppData\Loca...}, networkConnectionEnabled: false, pageLoadStrategy: normal, platformName: windows, proxy: Proxy(), se:cdp: ws://localhost:53881/devtoo..., se:cdpVersion: 125.0.2535.92, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:extension:minPinLength: true, webauthn:extension:prf: true, webauthn:virtualAuthenticators: true}
+Session ID: a8db78978ae4c222efd12902a60e51c6
+[INFO] 11-06-2024 00:01:27 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case comparingPricesTC passed

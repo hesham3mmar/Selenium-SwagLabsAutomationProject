@@ -1,0 +1,9 @@
+[INFO] 09-06-2024 17:42:37 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:29)] - Edge Driver is opened
+[INFO] 09-06-2024 17:42:38 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:31)] - URL is opened
+[INFO] 09-06-2024 17:42:38 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case addingRandomToCartTC started
+[INFO] 09-06-2024 17:42:39 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 2
+[INFO] 09-06-2024 17:42:39 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 3
+[INFO] 09-06-2024 17:42:39 [main] [Pages.P02_LandingPage.addRandomProducts(P02_LandingPage.java:65)] - randomNumber 5
+[INFO] 09-06-2024 17:42:39 [main] [Pages.P02_LandingPage.getNumberOfProductsOnCartIcon(P02_LandingPage.java:43)] - number of products on cart: 3
+[INFO] 09-06-2024 17:42:39 [main] [Pages.P02_LandingPage.getNumberOfSelectedProducts(P02_LandingPage.java:54)] - selected products: 3
+[INFO] 09-06-2024 17:42:39 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case addingRandomToCartTC passed

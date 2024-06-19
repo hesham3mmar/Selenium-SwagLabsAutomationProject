@@ -1,0 +1,4 @@
+[INFO] 10-06-2024 20:45:03 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:29)] - Edge Driver is opened
+[INFO] 10-06-2024 20:45:04 [main] [Tests.TC02_LandingTest.setup(TC02_LandingTest.java:31)] - URL is opened
+[INFO] 10-06-2024 20:45:04 [main] [Listeners.ITestResultListenerClass.onTestStart(ITestResultListenerClass.java:10)] - Test Case clickOnCartIcon started
+[INFO] 10-06-2024 20:45:05 [main] [Listeners.ITestResultListenerClass.onTestSuccess(ITestResultListenerClass.java:14)] - Test Case clickOnCartIcon passed
